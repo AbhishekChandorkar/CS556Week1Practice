@@ -8,5 +8,9 @@ public class welcome {
 		String name = S.nextLine();
 		System.out.println("Please enter your email: ");
 		String email = S.nextLine();
+		
+		System.out.println("******WELCOME******");
+		System.out.println("Your name is "+name);
+		System.out.println("Your email is "+email);
 	}
 }
